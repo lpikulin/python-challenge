@@ -62,7 +62,7 @@ totals=[khan,correy,li,o]
 winner=totals.index(max(totals))
 print(f"Winner: {names[winner]}")
 
-file1=open(os.path.join((os.path.dirname(os.path.abspath(__file__))),"PyPoll.txt"),'a')
+file1=open(os.path.join((os.path.dirname(os.path.abspath(__file__))),"analysis","PyPoll.txt"),'a')
 file1.write("Election Results\n")
 file1.write("-----------------\n")
 file1.write("Total voters: "+ str(voters)+"\n")

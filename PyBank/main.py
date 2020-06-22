@@ -36,7 +36,7 @@ print(f"Greatest increase in profits: {max}")
 min="${:,.2f}".format(min(profit))
 print(f"Greatest decrease in profits: {min}")
 
-file1=open(os.path.join((os.path.dirname(os.path.abspath(__file__))),"pybank_output.txt"),'a')
+file1=open(os.path.join((os.path.dirname(os.path.abspath(__file__))),"analysis","pybank_output.txt"),'a')
 file1.write("Financial Analysis\n")
 file1.write("-----------------\n")
 file1.write("Total months: "+ str(months)+"\n")
