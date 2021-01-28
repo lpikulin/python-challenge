@@ -1,5 +1,4 @@
-# python-challenge
-Python Homework assignment 1
+
 # Python Homework - Py Me Up, Charlie
 
 ## Background
